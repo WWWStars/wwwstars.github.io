@@ -80,8 +80,8 @@ $(function () {
         // 作息时间
         const xf_rest_time = {
             restTime: [
-                { work: '09:00 起床', img: 'assets/upload/get_up.png' },
-                { work: '14:00 上课', img: 'assets/upload/study.png' },
+                { work: '06:30 起床', img: 'assets/upload/get_up.png' },
+                { work: '70:10 上学', img: 'assets/upload/study.png' },
                 { work: '22:00 睡觉', img: 'assets/upload/sleep.png' },
             ]
         }
@@ -94,8 +94,8 @@ $(function () {
         const xf_fortune = {
             fortune: [
                 // num 代表百分比数值 45 = 45%
-                { text: '运势', num: 45 },
-                { text: '爱情', num: 70 },
+                { text: '运势', num: 70 },
+                { text: '爱情', num: 10 },
                 { text: '健康', num: 90 },
                 { text: '财富', num: 20 },
             ]
