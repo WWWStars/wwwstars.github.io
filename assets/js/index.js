@@ -104,8 +104,8 @@ $(function () {
         // 旗下站点
         const xf_site = {
             siteInfo: [
-                { name: '小枫网络', links: 'https://www.xfabe.com/', pic: 'assets/upload/blog_picture.jpg' },
-                { name: '小枫音乐播放器', links: 'https://music.xfyun.club/', pic: 'assets/upload/music_picture.jpg' },
+                { name: 'OST个人博客', links: 'https://ostarso.github.io', pic: 'assets/upload/blog_picture.jpg' },
+                { name: 'NebulaRealm服务器项目', links: 'https://nebularealm.github.io', pic: 'assets/upload/music_picture.jpg' },
             ]
         }
 
@@ -167,7 +167,7 @@ $(function () {
 
     let myDate = new Date()
     let weeks = ['日', '一', '二', '三', '四', '五', '六']
-    let webTime = new Date('2023-07-17') // 这里修改建站时间
+    let webTime = new Date('2023-10-21') // 这里修改建站时间
 
     function getTime() {
         let [year, month, date, hours, minutes, seconds, week] = [
