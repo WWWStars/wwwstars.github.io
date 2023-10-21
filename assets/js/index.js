@@ -3,7 +3,7 @@ function myBrowser() {
     var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera
     var isFirefox = userAgent.indexOf("Firefox") > -1
     if (isFirefox || isIE) {
-        swal("您正在使用的浏览器不适配我站源码，为了您的最佳体验，浏览器更换为Chrome或者Edge")
+        swal("您正在使用的浏览器不适配我站代码，为了您的最佳体验，浏览器更换为Chrome或者Edge")
     }
     return false
 }
@@ -50,7 +50,7 @@ $(window).on('load', () => {
 })
 $(function () {
     $(document).bind('contextmenu', () => {
-        swal('为了页面的美观,本站禁止右键')
+        swal('为了页面的美观,本站禁止右键,谢谢配合!')
         return false
     })
     function xf_ios() {
@@ -96,7 +96,7 @@ $(function () {
                 // num 代表百分比数值 45 = 45%
                 { text: '运势', num: 70 },
                 { text: '爱情', num: 10 },
-                { text: '健康', num: 90 },
+                { text: '健康', num: 95 },
                 { text: '财富', num: 20 },
             ]
         }
@@ -112,13 +112,13 @@ $(function () {
         // 友联链接
         const xf_friend = {
             friendInfo: [
-                { qq: '1809185784', links: 'https://www.xfabe.com/', name: '小枫', sig: 'Hello World' },
-                { qq: '169460169', links: 'JavaScript:;', name: '乐天', sig: '拟态5.0赞助商' },
+                { qq: '2647682805', links: 'https://anzhuochina.github.io', name: 'anzhuo', sig: '一个以科技为主题的团队' },
+                { qq: '0000000000', links: 'JavaScript:;', name: 'STbot', sig: '一个虚拟机器人' },
             ]
         }
 
         // 设置旗下站点排序 1正序 0倒序 默认为1
-        let siteSort = 1
+        let siteSort = 0
 
         // 设置友情链接排序
         let friendsSort = 1
