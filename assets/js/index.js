@@ -113,6 +113,7 @@ $(function () {
         const xf_friend = {
             friendInfo: [
                 { qq: '2647682805', links: 'https://anzhuochina.github.io', name: 'anzhuo', sig: '一个以科技为主题的团队' },
+                { qq: '3546233367', links: 'JavaScript:;', name: 'STbot', sig: '一个fw' },
                 { qq: '0000000000', links: 'JavaScript:;', name: 'STbot', sig: '一个虚拟机器人' },
             ]
         }
@@ -121,7 +122,7 @@ $(function () {
         let siteSort = 0
 
         // 设置友情链接排序
-        let friendsSort = 1
+        let friendsSort = 0
 
         const $restTime = $('.xf_rest_time')
         const $site = $('#mysite')
