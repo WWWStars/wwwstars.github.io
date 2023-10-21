@@ -112,8 +112,8 @@ $(function () {
         // 友联链接
         const xf_friend = {
             friendInfo: [
+                { qq: '3546233367', links: 'JavaScript:;', name: 'stars', sig: '一个fw' },
                 { qq: '2647682805', links: 'https://anzhuochina.github.io', name: 'anzhuo', sig: '一个以科技为主题的团队' },
-                { qq: '3546233367', links: 'JavaScript:;', name: 'STbot', sig: '一个fw' },
                 { qq: '0000000000', links: 'JavaScript:;', name: 'STbot', sig: '一个虚拟机器人' },
             ]
         }
